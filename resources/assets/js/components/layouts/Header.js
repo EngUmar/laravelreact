@@ -43,7 +43,9 @@ class Header extends Component {
                         </div>
                         <div className="nav-mini-wrapper pull-right">
                             <ul className="nav-mini">
-                                <li>Register</li>
+                            <li className="sign-in-btn">
+                                <Link to='/register'> Register </Link>
+                            </li>
                             </ul>
                         </div>
                     </div>
